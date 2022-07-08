@@ -48,8 +48,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 RICE_MAINTAINER := maintainer
 
 # gapps build flag, if not defined build type is vanilla
-# GAPPS package is similar to core gapps
-WITH_GAPPS := true/false
+WITH_GMS := true/false
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true/false
